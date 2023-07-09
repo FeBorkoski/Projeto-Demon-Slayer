@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Kimetsu no Yaiba</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="Logo Demon Slayer">
+  </header>
+
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+
+        <li class="personagem selecionado" id="tanjiro" data-name="Tanjiro"
+          data-description="principal habilidade de Tanjiro Kamado é o
+          Hinokami Kagura ou Dança da Chama Sagrada.
+          É uma técnica de respiração única que ele aprende
+          durante seu treinamento como um espadachim dos Caçadores de Demônios.">
+          <img src="./src/imagens/card-tranjiro.jpg" alt="Personagem Tanjiro" />
+        </li>
+
+        <li class="personagem" id="nezuko" data-name="Nezuko"
+          data-description="A principal habilidade de Nezuko Kamado, irmã
+          de Tanjiro, é sua transformação em uma demônio e o desenvolvimento de habilidades especiais como
+          resultado dessa transformação.">
+          <img src="src/imagens/card-nezuko.jpg" alt="Personagem Nezuko" />
+        </li>
+
+        <li class="personagem" id="zenitsu" data-name="Zenitsu"
+          data-description="A principal habilidade de Zenitsu Agatsuma é a Respiração do
+          Trovão. A Respiração do Trovão é uma forma de técnica de respiração que Zenitsu aprende como um dos
+          Caçadores de Demônios">
+          <img src="./src/imagens/card-zenitsu.jpg" alt="Personagem Zenitsu" />
+        </li>
+
+        <li class="personagem" id="inosuke" data-name="Inosuke"
+          data-description="A principal habilidade de Inosuke Hashibira é
+          sua força e habilidade física excepcionais, combinadas com sua
+          técnica de luta chamada Respiração da Besta">
+          <img src="./src/imagens/card-inosuke.jpg" alt="Personagem Inosuke" />
+        </li>
+
+        <li class="personagem" id="genya" data-name="Genya"
+          data-description="A principal habilidade de Genya Shinazugawa é
+          sua habilidade de consumir carne demoníaca e transformá-la em
+          força e poder. Ele é conhecido como Genya da Mandíbula devido à sua habilidade única relacionada à
+          sua mandíbula">
+          <img src="./src/imagens/card-genya.jpg "alt="Personagem Genya" />
+        </li>
+
+        <li class="personagem" id="muzan" data-name="Muzan"
+          data-description="Muzan Kibutsuji, é o primeiro demônio e a
+          fonte de todas as outras criaturas demoníacas no mundo do anime. Ele é um ser extremamente poderoso,
+          e sua principal habilidade é sua imortalidade">
+          <img src="./src/imagens/card-muzan.jpg" alt="Personagem Muzan" />
+        </li>
+
+        <li class="personagem" id="uzui" data-name="Uzui"
+          data-description="A principal habilidade de Tengen Uzui é a sua
+          destreza em combate e suas técnicas de espada. Tengen Uzui
+          é um dos Pilares dos Caçadores de Demônios e é conhecido como o Pilar do Som">
+          <img src="./src/imagens/card-uzui.jpg" alt="Personagem Uzui" />
+        </li>
+
+        <li class="personagem" id="rengoku" data-name="Rengoku"
+          data-description="A principal habilidade de Kyojuro Rengoku é o
+          uso da Respiração do Fogo. Rengoku é um dos Pilares dos
+          Caçadores de Demônios e é conhecido como o Pilar das Chamas.">
+          <img src="./src/imagens/card-rengoku.jpg" alt="Personagem Rengoku" />
+        </li>
+      </ul>
+    </section>
+
+    <section class="personagem-selecionado">
+
+      <img class="personagem-grande" src="./src/imagens/card-tanjiro.png" alt="Personagem Selecionado">
+      <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Tanjiro</h2>
+          <p class="descricao-personagem" id="descricao-personagem"> A principal habilidade de Tanjiro Kamado é o
+              Hinokami Kagura ou Dança da Chama Sagrada.
+              É uma técnica de respiração única que ele aprende
+              durante seu treinamento como um espadachim dos Caçadores de Demônios.
+          </p>
+      </div>
+    </section>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
